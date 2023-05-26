@@ -1,0 +1,30 @@
+/* =========================== GOOGLE FONTS ======================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* =========================== VARIABLES CSS ================================== */
+
+:root {
+    --header-height: 48px ;
+
+
+
+/* ========== COLORS =========== */
+/* Change favorite color */
+
+--hue-color: 250 ; /* Purple 250 - Green 142 - Blue 230 - Pink 340 */
+
+/* HSL color mode */
+
+--first-color: hsl(250, 69%, 61%) ; /* Primer color*/
+--first-color-second:  ;    /* Segundo color */
+--first-color-alt: ;
+--first-color-lighter: ;
+--title-color: ;
+--text-color: ;
+--text-color-light: ;
+--input-color: ;
+
+
+
+}
