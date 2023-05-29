@@ -345,7 +345,7 @@ html{
 
 @keyframes html{
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 85%;}
 }
 
 .skills .skill .css{
@@ -355,7 +355,7 @@ html{
 
 @keyframes css{
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 79%;}
 }
 
 .skills .skill .nodejs{
@@ -365,7 +365,7 @@ html{
 
 @keyframes nodejs{
     0%{width: 0%;}
-    100%{width: 60%;}
+    100%{width: 50%;}
 }
 
 .skills .skill .mongodb{
@@ -375,7 +375,7 @@ html{
 
 @keyframes mongodb{
     0%{width: 0%;}
-    100%{width: 60%;}
+    100%{width: 55%;}
 }
 
 .skills .skill .reactjs{
@@ -393,9 +393,9 @@ html{
     animation: 2s figma forwards;
 }
 
-@keyframes html{
+@keyframes figma{
     0%{width: 0%;}
-    100%{width: 60%;}
+    100%{width: 50%;}
 }
 
 
@@ -406,11 +406,10 @@ html{
     animation: 2s gestionDeEmociones forwards;
 }
 
-@keyframes html{
+@keyframes gestionDeEmociones{
     0%{width: 0%;}
     100%{width: 85%;}
 }
-
 
 .skills .skill .comunicacion{
     width: 0%;
@@ -422,7 +421,6 @@ html{
     100%{width: 70%;}
 }
 
-
 .skills .skill .trabajoEnEquipo{
     width: 0%;
     animation: 2s trabajoEnEquipo forwards;
@@ -430,7 +428,7 @@ html{
 
 @keyframes trabajoEnEquipo{
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 68%;}
 }
 
 
@@ -441,9 +439,8 @@ html{
 
 @keyframes creatividad{
     0%{width: 0%;}
-    100%{width: 72%;}
+    100%{width: 68%;}
 }
-
 
 .skills .skill .dedicacion{
     width: 0%;
@@ -452,9 +449,8 @@ html{
 
 @keyframes dedicacion{
     0%{width: 0%;}
-    100%{width: 92%;}
+    100%{width: 82%;}
 }
-
 
 .skills .skill .organizacionDelTiempo{
     width: 0%;
@@ -474,7 +470,7 @@ html{
 
 @keyframes tecnicasDeEstudio{
     0%{width: 0%;}
-    100%{width: 84%;}
+    100%{width: 75%;}
 }
 
 /* --------------- SECCION CURRICULUM ------------------ */
@@ -856,6 +852,7 @@ footer .arriba{
         border-bottom: 1px solid #fff;
         padding: 10px 0;
     }
+    
 }
 
 @media screen and (max-width:700px){
