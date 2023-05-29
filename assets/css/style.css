@@ -500,6 +500,7 @@ html{
 
 .curriculum .fila{
     display: flex;
+    justify-content: space-between;
 }
 
 .curriculum .fila .col{
@@ -555,3 +556,56 @@ html{
     border-right: 2px solid #1CB698;
     margin-right: 20px;
 }
+
+.curriculum .fila .der{
+    border-left: 2px solid #1CB698;
+    margin-left: 20px;
+}
+
+.curriculum .fila .item .contectori{
+    height: 2px;
+    background-color: #1CB698;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    right: -47px;
+    z-index: 5;
+}
+
+.curriculum .fila .item .contectori .circuloi{
+
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #1CB698;
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+
+/*
+.curriculum .fila .item .contectord{
+    height: 2px;
+    background-color: #1CB698;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    left: -47px;
+    z-index: 5;
+}
+
+    */
+
+/*
+.curriculum .fila .item .contectord .circulod{
+
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #1CB698;
+    float: right;
+    position: relative;
+    bottom: 4px;
+} */
