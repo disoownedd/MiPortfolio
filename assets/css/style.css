@@ -16,6 +16,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: #1e2326;
+}
+
 /* ============= MENU =============== */
 
 .contenedor-header{
@@ -487,6 +491,42 @@ html{
     margin: auto;
 }
 
+.curriculum .contenido-seccion a{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    text-decoration: none;   
+}
+
+.curriculum .contenido-seccion a .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1; /* -1 hara que se pueda ver el texto encima del hover si no lo taparia el bck */
+    transition: 1s;
+}
+
+.curriculum .contenido-seccion a:hover .overlay{
+    width: 100%;
+}
+
+/*
+.curriculum .contenido-seccion a i{
+
+
+} */
+
 .curriculum h2{
     font-size: 48px;
     font-family: 'Poppins', sans-serif;
@@ -579,6 +619,8 @@ html{
     position: relative;
     bottom: 4px;
 }
+
+
 
 /*
 .curriculum .fila .item .contectord{
